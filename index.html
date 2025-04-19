@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i><a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i><a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="assets/library_icon.png" /> <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i
+              ><i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">it's easy , we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">we'll keep you updated on new episodes</p>
+              <button class="badge">Browse Podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="/assets/backward_icon.png" />
+            <img src="/assets/forward_icon.png" class="hide" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-items hide">Explore Premium</button>
+            <button class="badge nav-items dark-badge">
+              <i class="fa-solid fa-download" style="margin-right: 5px"></i>
+              Install App
+            </button>
+            <i class="fa-regular fa-user nav-items"></i>
+          </div>
+        </div>
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card1img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Naa Ready</p>
+            <p class="card-info">
+              Song by Anirudh Ravichander, Asal Kolaar, and Vijay ‧ 2023
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Mere Paas Tum Ho [Lofi Mix]</p>
+            <p class="card-info">
+              Hindi song by Silent Ocean, released in 2022
+            </p>
+          </div>
+        </div>
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card2img.jpeg" class="card-img" />
+            <p class="card-title">Mahiye Jinna Sohna</p>
+            <p class="card-info">Song by Darshan Raval ‧ 2023</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Mere Paas Tum Ho [Lofi Mix]</p>
+            <p class="card-info">
+              Hindi song by Silent Ocean, released in 2022
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Naa Ready</p>
+            <p class="card-info">
+              Song by Anirudh Ravichander, Asal Kolaar, and Vijay ‧ 2023
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/image copy.png" class="card-img" />
+            <p class="card-title">Hot Hits Telugu</p>
+            <p class="card-info">Listen only Telugu hits songs</p>
+          </div>
+          <div class="card">
+            <img src="./assets/image copy 2.png" class="card-img" />
+            <p class="card-title">RANU BOMBAI KI RANU</p>
+            <p class="card-info">
+              Song by Kalyan Keys, Ramu Rathod, and Singer Prabha ‧ 2025
+            </p>
+          </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card6img.jpeg" class="card-img" />
+            <p class="card-title">Top Songs - India</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/image copy 3.png" class="card-img" />
+            <p class="card-title">Today's Top Hits</p>
+            <p class="card-info">
+              Today's Top Hits 1/1/21 (feat. Justin Bieber)
+            </p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img src="./assets/image.png" alt="Album Art" class="album-art" />
+          <div class="song-info">
+            <div class="song-title">Daylight</div>
+            <div class="artist-name">David kushner</div>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <i class="fa-solid fa-shuffle player-control-icon"></i>
+            <i class="fa-solid fa-backward-step player-control-icon"></i>
+            <i class="fa-solid fa-circle-play play-button"></i>
+            <i class="fa-solid fa-forward-step player-control-icon"></i>
+            <i class="fa-solid fa-repeat player-control-icon"></i>
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">1:22</span>
+            <input type="range" class="progress-bar" />
+            <span class="total-time">3:45</span>
+          </div>
+        </div>
+        <div class="controls">
+          <i class="fa-solid fa-volume-high player-control-icon"></i>
+          <input type="range" class="volume-bar" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
